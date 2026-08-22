@@ -1,0 +1,16 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Muffin de chocolate">
+  <rect width="400" height="400" fill="#FAF5EC"/>
+  <path d="M120 210 C 100 260 100 320 130 340 h140 c30 -20 30 -80 10 -130 Z" fill="#EFE3D0" stroke="#2B1B12" stroke-width="6"/>
+  <g stroke="#2B1B12" stroke-width="4" opacity="0.35">
+    <line x1="150" y1="230" x2="150" y2="330"/>
+    <line x1="200" y1="220" x2="200" y2="335"/>
+    <line x1="250" y1="230" x2="250" y2="330"/>
+  </g>
+  <path d="M100 210 C 120 150 160 130 200 130 C 240 130 280 150 300 210
+           C 260 190 230 205 200 190 C 170 205 140 190 100 210 Z" fill="#4A3221" stroke="#2B1B12" stroke-width="6"/>
+  <circle cx="150" cy="175" r="8" fill="#2B1B12"/>
+  <circle cx="200" cy="160" r="8" fill="#2B1B12"/>
+  <circle cx="250" cy="178" r="8" fill="#2B1B12"/>
+  <circle cx="175" cy="195" r="6" fill="#2B1B12"/>
+  <circle cx="225" cy="195" r="6" fill="#2B1B12"/>
+</svg>

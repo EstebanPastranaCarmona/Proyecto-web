@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Aroma | Contacto</title>
+  <meta name="description" content="Contáctanos, visítanos o escríbenos tus dudas y comentarios.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Work+Sans:wght@300;400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="contenedor">
+      <span>Liberia, Guanacaste, Costa Rica</span>
+      <span>(506) 2222-3333</span>
+      <span>Lunes a domingo, 7:00 a. m. — 8:00 p. m.</span>
+    </div>
+  </div>
+
+  <header class="principal">
+    <nav class="navbar contenedor">
+      <a href="index.html" class="logo"><img src="imagenes/logo-cafe-aroma.png" alt="Logo de Café Aroma" class="marca"> Café Aroma</a>
+      <input type="checkbox" id="menu-check">
+      <label for="menu-check" class="menu-toggle">Menú</label>
+      <ul class="nav-links">
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="nosotros.html">Nosotros</a></li>
+        <li><a href="menu.html">Menú</a></li>
+        <li><a href="opiniones.html">Opiniones</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero hero-simple">
+      <div class="contenedor">
+        <span class="eyebrow">Hablemos</span>
+        <h1>Contáctanos</h1>
+        <p>¿Dudas, comentarios o reservaciones para grupos? Escríbenos y te responderemos a la brevedad.</p>
+      </div>
+    </section>
+
+    <section id="info">
+      <div class="contenedor">
+        <div class="info-contacto">
+          <article class="tarjeta">
+            <h3>Dirección</h3>
+            <p>200 metros oeste del parque central de Liberia, Guanacaste, Costa Rica.</p>
+          </article>
+          <article class="tarjeta">
+            <h3>Teléfono</h3>
+            <p>(506) 2222-3333</p>
+          </article>
+          <article class="tarjeta">
+            <h3>Correo</h3>
+            <p>info@cafearoma.co.cr</p>
+          </article>
+          <article class="tarjeta">
+            <h3>Horario</h3>
+            <p>Lunes a domingo, 7:00 a.m. – 8:00 p.m.</p>
+          </article>
+        </div>
+
+        <figure class="mapa-ilustrativo">
+          <img src="imagenes/local-barra.jpg" alt="Barra de Café Aroma con las pizarras del menú sobre el mostrador">
+          <figcaption>Liberia, Guanacaste, Costa Rica — 200 metros oeste del parque central. Busá el toldo café con letras doradas.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="formulario">
+      <div class="contenedor">
+        <div class="encabezado-seccion">
+          <span class="eyebrow">Escríbenos</span>
+          <h2>Formulario de contacto</h2>
+        </div>
+
+        <form class="form-contacto" action="#" method="post">
+
+          <fieldset>
+            <legend>Datos personales</legend>
+
+            <div class="campo-fila">
+              <div class="campo">
+                <label for="nombre">Nombre <span class="obligatorio">*</span></label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" maxlength="40" required>
+              </div>
+              <div class="campo">
+                <label for="apellidos">Apellidos <span class="obligatorio">*</span></label>
+                <input type="text" id="apellidos" name="apellidos" placeholder="Tus apellidos" maxlength="60" required>
+              </div>
+            </div>
+
+            <div class="campo-fila">
+              <div class="campo">
+                <label for="correo">Correo electrónico <span class="obligatorio">*</span></label>
+                <input type="email" id="correo" name="correo" placeholder="tucorreo@ejemplo.com" required>
+              </div>
+              <div class="campo">
+                <label for="telefono">Teléfono</label>
+                <input type="tel" id="telefono" name="telefono" placeholder="8888-8888" pattern="[0-9\- ]{8,15}">
+                <small class="ayuda">Formato: 8888-8888 (opcional)</small>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Tu mensaje</legend>
+
+            <div class="campo">
+              <label for="asunto">Asunto <span class="obligatorio">*</span></label>
+              <select id="asunto" name="asunto" required>
+                <option value="">Selecciona una opción</option>
+                <option value="reservacion">Reservación de grupo</option>
+                <option value="pedido">Pedido especial</option>
+                <option value="sugerencia">Sugerencia o comentario</option>
+                <option value="empleo">Oportunidades de empleo</option>
+                <option value="otro">Otro</option>
+              </select>
+            </div>
+
+            <div class="campo">
+              <label for="comentarios">Comentarios <span class="obligatorio">*</span></label>
+              <textarea id="comentarios" name="comentarios" rows="6" placeholder="Cuéntanos en qué podemos ayudarte..." required></textarea>
+            </div>
+
+            <div class="campo campo-inline">
+              <input type="checkbox" id="copia" name="copia" value="si">
+              <label for="copia">Quiero recibir una copia de este mensaje en mi correo.</label>
+            </div>
+          </fieldset>
+
+          <p class="nota-form">Los campos marcados con <span class="obligatorio">*</span> son obligatorios.</p>
+
+          <div class="form-botones">
+            <button type="submit">Enviar mensaje</button>
+            <button type="reset">Limpiar formulario</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <section id="redes-sociales">
+      <div class="contenedor">
+        <aside class="destacado centrado">
+          <h3>Síguenos en redes sociales</h3>
+          <p>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a> ·
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a> ·
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer">TikTok</a>
+          </p>
+        </aside>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="contenedor">
+      <div>
+        <h3>Café Aroma</h3>
+        <p>Sabor de origen costarricense, tueste artesanal, servido con cuidado.</p>
+        <div class="redes">
+          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+        </div>
+      </div>
+      <div>
+        <h3>Proyecto académico</h3>
+        <p>Estudiantes: Alex Villegas, Esteban Pastrana y Pablo Sequeira</p>
+        <p>Curso: Programación 4</p>
+        <p>Universidad Latina de Costa Rica</p>
+        <p>Año: 2026</p>
+      </div>
+      <div>
+        <h3>Contacto</h3>
+        <p>Liberia, Guanacaste, Costa Rica</p>
+        <p>info@cafearoma.co.cr</p>
+        <p><a href="contacto.html">Escríbenos aquí</a></p>
+      </div>
+    </div>
+    <p class="footer-legal">&copy; 2026 Café Aroma. Todos los derechos reservados.</p>
+  </footer>
+
+</body>
+</html>

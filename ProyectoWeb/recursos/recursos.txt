@@ -1,0 +1,79 @@
+RECURSOS UTILIZADOS - Proyecto Cafe Aroma
+==========================================
+
+TIPOGRAFIAS (Google Fonts)
+--------------------------
+- Fraunces  : https://fonts.google.com/specimen/Fraunces      (titulos)
+- Work Sans : https://fonts.google.com/specimen/Work+Sans     (texto)
+Se enlazan con <link rel="stylesheet"> en el <head> de cada pagina HTML.
+
+
+IMAGENES (carpeta /imagenes)
+----------------------------
+Once fotografias en formato JPG, optimizadas y redimensionadas para web:
+
+  cafeteria-interior.jpg  Interior del local (pagina Inicio y Opiniones)
+  taza-granos.jpg         Taza de cafe con granos (Inicio - Cafe de origen)
+  latte-art.jpg           Barista sirviendo arte latte (Inicio y Menu)
+  reposteria.jpg          Panes y reposteria (Inicio - Reposteria casera)
+  barista.jpg             Barista en la maquina de espresso (Inicio - Proceso)
+  prensa-francesa.jpg     Cafe servido en prensa francesa (Inicio y Menu)
+  muffin-chocolate.jpg    Muffins de chocolate (Inicio - Favoritos)
+  granos-en-mano.jpg      Granos de cafe en las manos (Inicio y Menu)
+  planta-cafe.jpg         Planta de cafe con frutos (Nosotros)
+  local-barra.jpg         Barra y pizarras del local (Contacto)
+  barra-cafeteria.jpg     Barra con la maquina de espresso (Inicio - portada)
+
+Ademas, el logotipo de la marca:
+
+  logo-cafe-aroma.png     Logo circular con fondo transparente, usado en la
+                          barra de navegacion de las cinco paginas
+
+Las ilustraciones SVG que se usaron en versiones anteriores del sitio
+quedaron archivadas en /recursos/ilustraciones/ por si se quieren reutilizar.
+
+
+ENLACES EXTERNOS INCLUIDOS EN EL SITIO
+--------------------------------------
+- Instituto del Cafe de Costa Rica (ICAFE) : https://www.icafe.cr
+- Visit Costa Rica                          : https://www.visitcostarica.com
+- Google Maps / TripAdvisor                 : pagina de Opiniones
+- Instagram / Facebook / TikTok             : pie de pagina y contacto
+
+
+ESTRUCTURA DEL PROYECTO
+-----------------------
+ProyectoWeb/
+  index.html        Inicio
+  nosotros.html     Historia, linea de tiempo, mision/vision y equipo
+  menu.html         Carta completa (desayunos, bebidas, postres, para picar)
+  opiniones.html    Resenas de clientes y formulario de valoracion
+  contacto.html     Datos de contacto y formulario de contacto
+  css/estilos.css   Hoja de estilos externa unica
+  imagenes/         Fotografias e ilustracion del sitio
+  recursos/         Este archivo y las ilustraciones archivadas
+
+
+TECNICAS APLICADAS
+------------------
+- HTML5 semantico: header, nav, main, section, article, aside, footer, figure.
+- Formularios con fieldset/legend, validacion nativa (required, type, pattern).
+- CSS3: variables, modelo de caja, Flexbox, pseudoclases (:hover, :focus-visible),
+  sombras, bordes, fondos y tipografia personalizada.
+- Diseno adaptable con media queries en 860 px, 720 px, 620 px y 500 px.
+- Menu de navegacion desplegable en movil hecho solo con CSS (checkbox + label).
+- Barra de navegacion fija (position: sticky) y submenu de seccion tambien fijo
+  justo debajo de ella en las paginas Menu y Opiniones. Al volver al inicio de la
+  pagina el submenu regresa a su posicion normal.
+- Tablas dentro de contenedores con desplazamiento horizontal en pantallas chicas.
+
+
+INTEGRANTES DEL GRUPO
+---------------------
+- Alex Villegas
+- Esteban Pastrana
+- Pablo Sequeira
+
+Curso: Programacion 4
+Universidad Latina de Costa Rica
+Ano: 2026

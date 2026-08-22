@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Café latte con arte latte">
+  <rect width="400" height="400" fill="#FAF5EC"/>
+  <ellipse cx="200" cy="220" rx="150" ry="150" fill="#EFE3D0" stroke="#2B1B12" stroke-width="6"/>
+  <circle cx="200" cy="220" r="130" fill="#8A5A34"/>
+  <g fill="#F2E8D5">
+    <path d="M200 130 C 215 175 215 265 200 310 C 185 265 185 175 200 130 Z"/>
+    <ellipse cx="200" cy="150" rx="18" ry="14"/>
+    <path d="M170 190 C 190 200 210 200 230 190 C 215 210 185 210 170 190 Z"/>
+    <path d="M165 230 C 190 242 210 242 235 230 C 218 252 182 252 165 230 Z"/>
+  </g>
+  <circle cx="200" cy="220" r="130" fill="none" stroke="#2B1B12" stroke-width="6"/>
+</svg>

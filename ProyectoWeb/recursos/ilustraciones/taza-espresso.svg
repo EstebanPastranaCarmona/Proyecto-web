@@ -1,0 +1,11 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Taza de espresso">
+  <rect width="400" height="400" fill="#F2E8D5"/>
+  <ellipse cx="200" cy="330" rx="140" ry="14" fill="#2B1B12" opacity="0.12"/>
+  <path d="M120 190 h160 l-14 110 a20 20 0 0 1-20 18 h-92 a20 20 0 0 1-20-18 z" fill="#FAF5EC" stroke="#2B1B12" stroke-width="6"/>
+  <path d="M132 200 h136 l-4 30 h-128 z" fill="#4A3221"/>
+  <path d="M280 210 c34 -4 46 24 30 46 c-12 16 -34 18 -48 10" fill="none" stroke="#2B1B12" stroke-width="6" stroke-linecap="round"/>
+  <path d="M150 150 c-6 -18 10 -22 6 -40" fill="none" stroke="#C89B3C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M190 150 c-6 -18 10 -22 6 -40" fill="none" stroke="#C89B3C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M230 150 c-6 -18 10 -22 6 -40" fill="none" stroke="#C89B3C" stroke-width="6" stroke-linecap="round"/>
+  <rect x="100" y="345" width="200" height="16" rx="8" fill="#2B1B12"/>
+</svg>
