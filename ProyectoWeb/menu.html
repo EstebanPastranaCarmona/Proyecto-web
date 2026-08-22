@@ -4,28 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Café Aroma | Menú</title>
-  <meta name="description" content="Menú completo de Café Aroma en Liberia, Guanacaste: desayunos, bebidas calientes, frías, milkshakes y postres.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Work+Sans:wght@300;400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
-  <div class="topbar">
+  <div class="barra-superior">
     <div class="contenedor">
       <span>Liberia, Guanacaste, Costa Rica</span>
       <span>(506) 2222-3333</span>
-      <span>Lunes a domingo, 7:00 a. m. — 8:00 p. m.</span>
+      <span>Lunes a domingo, 7:00 a. m. - 8:00 p. m.</span>
     </div>
   </div>
 
-  <header class="principal" id="arriba">
-    <nav class="navbar contenedor">
-      <a href="index.html" class="logo"><img src="imagenes/logo-cafe-aroma.png" alt="Logo de Café Aroma" class="marca"> Café Aroma</a>
-      <input type="checkbox" id="menu-check">
-      <label for="menu-check" class="menu-toggle">Menú</label>
-      <ul class="nav-links">
+  <header class="principal">
+    <nav class="barra-navegacion contenedor">
+      <a href="index.html" class="logo">
+        <img src="imagenes/logo-cafe-aroma.png" alt="Logo de Café Aroma" class="marca">
+        Café Aroma
+      </a>
+      <ul class="enlaces-navegacion">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
         <li><a href="menu.html" class="activo">Menú</a></li>
@@ -37,336 +35,146 @@
 
   <main>
 
-    <section class="hero hero-simple">
+    <section class="portada portada-simple">
       <div class="contenedor">
-        <span class="eyebrow">Carta de la casa</span>
-        <h1>El menú de Café Aroma</h1>
-        <p>Desayunos, bebidas y postres preparados a diario, pensados para acompañar cualquier momento del día.</p>
+        <span class="subtitulo">Carta de la casa</span>
+        <h1>Menú de Café Aroma</h1>
+        <p>Desayunos, bebidas y postres preparados todos los días.</p>
       </div>
     </section>
-
-    <nav class="menu-interno" aria-label="Secciones del menú">
-      <div class="contenedor">
-        <h2>Ir directo a</h2>
-        <ul>
-          <li><a href="#desayunos">Desayunos</a></li>
-          <li><a href="#bebidas">Bebidas</a></li>
-          <li><a href="#postres">Postres</a></li>
-          <li><a href="#para-picar">Para picar</a></li>
-          <li><a href="#recomendaciones">Recomendaciones</a></li>
-        </ul>
-      </div>
-    </nav>
 
     <section id="desayunos">
       <div class="contenedor">
         <div class="encabezado-seccion">
-          <span class="eyebrow">Para empezar el día</span>
+          <span class="subtitulo">Para empezar el día</span>
           <h2>Desayunos</h2>
         </div>
-        <div class="tabla-responsive">
+        <div class="tabla-adaptable">
           <table>
             <caption>Desayunos</caption>
             <thead>
               <tr>
-                <th scope="col">Platillo</th>
-                <th scope="col">Descripción</th>
-                <th scope="col">Precio</th>
+                <th>Platillo</th>
+                <th>Descripción</th>
+                <th>Precio</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>Gallo pinto tradicional</td>
-                <td>Con huevo al gusto, natilla, plátano maduro y tortilla.</td>
+                <td>Con huevo, natilla, plátano maduro y tortilla.</td>
                 <td class="precio">₡3 200</td>
               </tr>
               <tr>
                 <td>Tostadas de aguacate</td>
-                <td>Pan artesanal, aguacate, tomate cherry y semillas.</td>
+                <td>Pan artesanal, aguacate y tomate.</td>
                 <td class="precio">₡2 900</td>
               </tr>
               <tr>
                 <td>Omelette de vegetales</td>
-                <td>Huevo, queso, espinaca, tomate y cebolla, con tostada.</td>
+                <td>Huevo, queso y vegetales.</td>
                 <td class="precio">₡3 100</td>
               </tr>
               <tr>
                 <td>Pancakes con frutas</td>
-                <td>Tres unidades con miel, frutas de temporada y crema.</td>
+                <td>Tres pancakes con miel y frutas.</td>
                 <td class="precio">₡2 800</td>
-              </tr>
-              <tr>
-                <td>Bagel con queso crema</td>
-                <td>Bagel tostado, queso crema, tomate y ajonjolí.</td>
-                <td class="precio">₡2 400</td>
-              </tr>
-              <tr>
-                <td>Avena con frutas</td>
-                <td>Avena cocida con leche, banano, fresas y miel.</td>
-                <td class="precio">₡2 200</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p class="volver-arriba"><a href="#arriba">↑ Volver al inicio de la página</a></p>
       </div>
     </section>
 
     <section id="bebidas">
       <div class="contenedor">
         <div class="encabezado-seccion">
-          <span class="eyebrow">Barra de café</span>
+          <span class="subtitulo">Barra de café</span>
           <h2>Bebidas</h2>
         </div>
-
-        <div class="grupo-menu">
-          <h3>Bebidas calientes</h3>
-          <div class="tabla-responsive">
-            <table>
-              <caption>Bebidas calientes</caption>
-              <thead>
-                <tr>
-                  <th scope="col">Bebida</th>
-                  <th scope="col">Descripción</th>
-                  <th scope="col">Precio</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Espresso</td>
-                  <td>Doble shot de café 100 % costarricense.</td>
-                  <td class="precio">₡1 300</td>
-                </tr>
-                <tr>
-                  <td>Americano</td>
-                  <td>Espresso alargado con agua caliente.</td>
-                  <td class="precio">₡1 400</td>
-                </tr>
-                <tr>
-                  <td>Cappuccino</td>
-                  <td>Espresso, leche vaporizada y espuma cremosa.</td>
-                  <td class="precio">₡1 750</td>
-                </tr>
-                <tr>
-                  <td>Latte con arte</td>
-                  <td>Espresso con leche vaporizada y diseño artesanal.</td>
-                  <td class="precio">₡1 850</td>
-                </tr>
-                <tr>
-                  <td>Macchiato</td>
-                  <td>Espresso marcado con un toque de espuma de leche.</td>
-                  <td class="precio">₡1 600</td>
-                </tr>
-                <tr>
-                  <td>Mocha</td>
-                  <td>Espresso, chocolate y leche vaporizada.</td>
-                  <td class="precio">₡1 900</td>
-                </tr>
-                <tr>
-                  <td>Prensa francesa</td>
-                  <td>Método de inmersión que resalta cuerpo y aroma.</td>
-                  <td class="precio">₡1 600</td>
-                </tr>
-                <tr>
-                  <td>Chocolate caliente</td>
-                  <td>Chocolate artesanal con leche entera.</td>
-                  <td class="precio">₡1 700</td>
-                </tr>
-                <tr>
-                  <td>Té chai</td>
-                  <td>Infusión especiada con leche vaporizada.</td>
-                  <td class="precio">₡1 650</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+        <div class="tabla-adaptable">
+          <table>
+            <caption>Bebidas</caption>
+            <thead>
+              <tr>
+                <th>Bebida</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Espresso</td>
+                <td>Café 100 % costarricense.</td>
+                <td class="precio">₡1 300</td>
+              </tr>
+              <tr>
+                <td>Americano</td>
+                <td>Espresso con agua caliente.</td>
+                <td class="precio">₡1 400</td>
+              </tr>
+              <tr>
+                <td>Cappuccino</td>
+                <td>Espresso, leche y espuma.</td>
+                <td class="precio">₡1 750</td>
+              </tr>
+              <tr>
+                <td>Latte</td>
+                <td>Espresso con leche vaporizada.</td>
+                <td class="precio">₡1 850</td>
+              </tr>
+              <tr>
+                <td>Café frío</td>
+                <td>Café preparado en frío y servido con hielo.</td>
+                <td class="precio">₡1 900</td>
+              </tr>
+              <tr>
+                <td>Chocolate caliente</td>
+                <td>Chocolate artesanal con leche.</td>
+                <td class="precio">₡1 700</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-
-        <div class="grupo-menu">
-          <h3>Bebidas frías</h3>
-          <div class="tabla-responsive">
-            <table>
-              <caption>Bebidas frías</caption>
-              <thead>
-                <tr>
-                  <th scope="col">Bebida</th>
-                  <th scope="col">Descripción</th>
-                  <th scope="col">Precio</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Cold brew</td>
-                  <td>Extracción en frío durante 18 horas, suave y poco ácido.</td>
-                  <td class="precio">₡1 900</td>
-                </tr>
-                <tr>
-                  <td>Latte helado</td>
-                  <td>Espresso, leche fría y hielo.</td>
-                  <td class="precio">₡2 000</td>
-                </tr>
-                <tr>
-                  <td>Frappé de café</td>
-                  <td>Café batido con hielo, leche y un toque de canela.</td>
-                  <td class="precio">₡2 100</td>
-                </tr>
-                <tr>
-                  <td>Frappé de moka</td>
-                  <td>Café, chocolate, leche y hielo, con crema batida.</td>
-                  <td class="precio">₡2 250</td>
-                </tr>
-                <tr>
-                  <td>Té helado artesanal</td>
-                  <td>Infusión de frutas de temporada servida con hielo.</td>
-                  <td class="precio">₡1 700</td>
-                </tr>
-                <tr>
-                  <td>Limonada de sacha inchi</td>
-                  <td>Limonada natural con un toque de menta.</td>
-                  <td class="precio">₡1 500</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <div class="grupo-menu">
-          <h3>Milkshakes</h3>
-          <div class="tabla-responsive">
-            <table>
-              <caption>Milkshakes</caption>
-              <thead>
-                <tr>
-                  <th scope="col">Milkshake</th>
-                  <th scope="col">Descripción</th>
-                  <th scope="col">Precio</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Milkshake de café</td>
-                  <td>Helado de vainilla batido con espresso y leche.</td>
-                  <td class="precio">₡2 400</td>
-                </tr>
-                <tr>
-                  <td>Milkshake de chocolate</td>
-                  <td>Helado de chocolate, leche y salsa de chocolate.</td>
-                  <td class="precio">₡2 300</td>
-                </tr>
-                <tr>
-                  <td>Milkshake de vainilla</td>
-                  <td>Clásico y cremoso, con crema batida.</td>
-                  <td class="precio">₡2 200</td>
-                </tr>
-                <tr>
-                  <td>Milkshake de fresa</td>
-                  <td>Helado de fresa con fruta natural.</td>
-                  <td class="precio">₡2 300</td>
-                </tr>
-                <tr>
-                  <td>Milkshake de galleta y crema</td>
-                  <td>Helado de vainilla con trozos de galleta de chocolate.</td>
-                  <td class="precio">₡2 450</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-
-        <p class="volver-arriba"><a href="#arriba">↑ Volver al inicio de la página</a></p>
       </div>
     </section>
 
     <section id="postres">
       <div class="contenedor">
         <div class="encabezado-seccion">
-          <span class="eyebrow">Para acompañar</span>
-          <h2>Postres y repostería</h2>
+          <span class="subtitulo">Para acompañar</span>
+          <h2>Postres</h2>
         </div>
-        <div class="tabla-responsive">
+        <div class="tabla-adaptable">
           <table>
-            <caption>Postres</caption>
+            <caption>Postres y repostería</caption>
             <thead>
               <tr>
-                <th scope="col">Postre</th>
-                <th scope="col">Descripción</th>
-                <th scope="col">Precio</th>
+                <th>Postre</th>
+                <th>Descripción</th>
+                <th>Precio</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Croissant de mantequilla</td>
-                <td>Hojaldrado y horneado cada mañana.</td>
+                <td>Croissant</td>
+                <td>Horneado cada mañana.</td>
                 <td class="precio">₡1 200</td>
               </tr>
               <tr>
                 <td>Muffin de chocolate</td>
-                <td>Esponjoso, con trozos de chocolate semiamargo.</td>
+                <td>Con trozos de chocolate.</td>
                 <td class="precio">₡1 350</td>
               </tr>
               <tr>
                 <td>Cheesecake de maracuyá</td>
-                <td>Base de galleta, queso crema y coulis de maracuyá.</td>
+                <td>Con base de galleta.</td>
                 <td class="precio">₡2 100</td>
               </tr>
               <tr>
-                <td>Brownie con nueces</td>
-                <td>Húmedo por dentro, servido tibio.</td>
-                <td class="precio">₡1 600</td>
-              </tr>
-              <tr>
                 <td>Tres leches</td>
-                <td>Receta tradicional costarricense, bien fría.</td>
+                <td>Receta tradicional servida fría.</td>
                 <td class="precio">₡1 900</td>
-              </tr>
-              <tr>
-                <td>Tiramisú</td>
-                <td>Bizcocho de café, mascarpone y cacao.</td>
-                <td class="precio">₡2 200</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-        <p class="volver-arriba"><a href="#arriba">↑ Volver al inicio de la página</a></p>
-      </div>
-    </section>
-
-    <section id="para-picar">
-      <div class="contenedor">
-        <div class="encabezado-seccion">
-          <span class="eyebrow">Salados</span>
-          <h2>Para picar</h2>
-        </div>
-        <div class="tabla-responsive">
-          <table>
-            <caption>Para picar</caption>
-            <thead>
-              <tr>
-                <th scope="col">Platillo</th>
-                <th scope="col">Descripción</th>
-                <th scope="col">Precio</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td>Sandwich de pollo</td>
-                <td>Pollo a la plancha, lechuga, tomate y aderezo de la casa.</td>
-                <td class="precio">₡3 300</td>
-              </tr>
-              <tr>
-                <td>Wrap de vegetales</td>
-                <td>Tortilla de trigo, vegetales frescos y hummus.</td>
-                <td class="precio">₡3 100</td>
-              </tr>
-              <tr>
-                <td>Quiche de espinaca y queso</td>
-                <td>Porción individual, servida tibia.</td>
-                <td class="precio">₡2 700</td>
-              </tr>
-              <tr>
-                <td>Empanada de queso</td>
-                <td>Masa casera horneada, hecha en el local.</td>
-                <td class="precio">₡1 400</td>
               </tr>
             </tbody>
           </table>
@@ -377,27 +185,24 @@
     <section id="recomendaciones">
       <div class="contenedor">
         <div class="encabezado-seccion">
-          <span class="eyebrow">Lo que pediríamos nosotros</span>
-          <h2>Recomendaciones del barista</h2>
+          <span class="subtitulo">Recomendaciones</span>
+          <h2>Favoritos del menú</h2>
         </div>
         <div class="tarjetas">
           <article class="tarjeta">
-            <img src="imagenes/latte-art.jpg" alt="Latte con arte servido en taza de cerámica">
-            <h3>Latte con arte</h3>
-            <p>Nuestro clásico de la casa: leche vaporizada a 65 °C sobre un espresso de Tarrazú. Ideal si preferís una bebida suave y cremosa.</p>
-            <p class="precio">₡1 850</p>
+            <img src="imagenes/latte-art.jpg" alt="Taza de latte">
+            <h3>Latte</h3>
+            <p>Una bebida suave y cremosa.</p>
           </article>
           <article class="tarjeta">
-            <img src="imagenes/prensa-francesa.jpg" alt="Café servido desde una prensa francesa">
-            <h3>Prensa francesa para dos</h3>
-            <p>Cuatro minutos de inmersión que resaltan el cuerpo del grano. La servimos en jarra para compartir en la mesa.</p>
-            <p class="precio">₡1 600</p>
+            <img src="imagenes/prensa-francesa.jpg" alt="Prensa francesa con café">
+            <h3>Prensa francesa</h3>
+            <p>Ideal para disfrutar el aroma del café.</p>
           </article>
           <article class="tarjeta">
-            <img src="imagenes/granos-en-mano.jpg" alt="Granos de café tostado sostenidos en las manos">
-            <h3>Café de grano para llevar</h3>
-            <p>Bolsas de 340 g de tueste medio u oscuro. Te lo molemos gratis según el método que uses en casa.</p>
-            <p class="precio">₡6 500</p>
+            <img src="imagenes/muffin-chocolate.jpg" alt="Muffin de chocolate">
+            <h3>Muffin de chocolate</h3>
+            <p>Una opción dulce para acompañar cualquier bebida.</p>
           </article>
         </div>
       </div>
@@ -407,17 +212,13 @@
       <div class="contenedor">
         <aside class="destacado">
           <h3>Servicios adicionales</h3>
-          <p>Además del menú diario, en Café Aroma ofrecemos:</p>
-          <ul class="lista-check lista-clara">
-            <li>Wi-Fi gratuito y tomacorrientes en todas las mesas.</li>
-            <li>Reservación de mesas para grupos de hasta 20 personas.</li>
-            <li>Servicio de café para eventos y reuniones de empresa.</li>
-            <li>Cata guiada de café los miércoles a las 4:00 p. m.</li>
-            <li>Venta de café en grano y molido para llevar.</li>
+          <ul class="lista-marcada lista-clara">
+            <li>Wi-Fi gratuito.</li>
+            <li>Reservación de mesas para grupos.</li>
+            <li>Venta de café en grano y molido.</li>
           </ul>
-          <p><a href="contacto.html">Consultá disponibilidad en la página de contacto</a></p>
+          <p><a href="contacto.html">Consultá disponibilidad en la página de contacto.</a></p>
         </aside>
-        <p class="volver-arriba"><a href="#arriba">↑ Volver al inicio de la página</a></p>
       </div>
     </section>
 
@@ -427,16 +228,16 @@
     <div class="contenedor">
       <div>
         <h3>Café Aroma</h3>
-        <p>Sabor de origen costarricense, tueste artesanal, servido con cuidado.</p>
+        <p>Café costarricense y repostería artesanal.</p>
         <div class="redes">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.instagram.com">Instagram</a>
+          <a href="https://www.facebook.com">Facebook</a>
         </div>
       </div>
       <div>
         <h3>Proyecto académico</h3>
         <p>Estudiantes: Alex Villegas, Esteban Pastrana y Pablo Sequeira</p>
-        <p>Curso: Programación 4</p>
+        <p>Curso: BISOF 07 Programación II</p>
         <p>Universidad Latina de Costa Rica</p>
         <p>Año: 2026</p>
       </div>
@@ -444,10 +245,9 @@
         <h3>Contacto</h3>
         <p>Liberia, Guanacaste, Costa Rica</p>
         <p>info@cafearoma.co.cr</p>
-        <p><a href="contacto.html">Escríbenos aquí</a></p>
       </div>
     </div>
-    <p class="footer-legal">&copy; 2026 Café Aroma. Todos los derechos reservados.</p>
+    <p class="pie-legal">&copy; 2026 Café Aroma. Todos los derechos reservados.</p>
   </footer>
 
 </body>
