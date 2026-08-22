@@ -4,28 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Café Aroma | Opiniones</title>
-  <meta name="description" content="Opiniones y reseñas de clientes de Café Aroma en Liberia, Guanacaste. Dejá tu propia valoración.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&amp;family=Work+Sans:wght@300;400;500;600;700&amp;display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
   <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
 
-  <div class="topbar">
+  <div class="barra-superior">
     <div class="contenedor">
       <span>Liberia, Guanacaste, Costa Rica</span>
       <span>(506) 2222-3333</span>
-      <span>Lunes a domingo, 7:00 a. m. — 8:00 p. m.</span>
+      <span>Lunes a domingo, 7:00 a. m. - 8:00 p. m.</span>
     </div>
   </div>
 
-  <header class="principal" id="arriba">
-    <nav class="navbar contenedor">
-      <a href="index.html" class="logo"><img src="imagenes/logo-cafe-aroma.png" alt="Logo de Café Aroma" class="marca"> Café Aroma</a>
-      <input type="checkbox" id="menu-check">
-      <label for="menu-check" class="menu-toggle">Menú</label>
-      <ul class="nav-links">
+  <header class="principal">
+    <nav class="barra-navegacion contenedor">
+      <a href="index.html" class="logo">
+        <img src="imagenes/logo-cafe-aroma.png" alt="Logo de Café Aroma" class="marca">
+        Café Aroma
+      </a>
+      <ul class="enlaces-navegacion">
         <li><a href="index.html">Inicio</a></li>
         <li><a href="nosotros.html">Nosotros</a></li>
         <li><a href="menu.html">Menú</a></li>
@@ -37,70 +35,49 @@
 
   <main>
 
-    <section class="hero hero-simple">
+    <section class="portada portada-simple">
       <div class="contenedor">
-        <span class="eyebrow">La voz de nuestros clientes</span>
+        <span class="subtitulo">Nuestros clientes</span>
         <h1>Opiniones sobre Café Aroma</h1>
-        <p>Lo que dicen quienes ya nos visitaron. Leé sus experiencias y, si ya viniste, contanos la tuya.</p>
+        <p>Algunas experiencias de personas que han visitado nuestra cafetería.</p>
       </div>
     </section>
 
-    <nav class="menu-interno" aria-label="Secciones de esta página">
-      <div class="contenedor">
-        <h2>Ir directo a</h2>
-        <ul>
-          <li><a href="#resumen">Resumen de valoraciones</a></li>
-          <li><a href="#opiniones">Reseñas de clientes</a></li>
-          <li><a href="#dejar-opinion">Dejar mi opinión</a></li>
-        </ul>
-      </div>
-    </nav>
-
     <section id="resumen">
-      <div class="contenedor articulo-flex">
+      <div class="contenedor articulo-flexible">
         <figure>
-          <img src="imagenes/cafeteria-interior.jpg" alt="Interior de Café Aroma con mesas de madera y pared de ladrillo">
-          <figcaption>El espacio que nuestros clientes califican cada semana</figcaption>
+          <img src="imagenes/cafeteria-interior.jpg" alt="Interior de Café Aroma">
+          <figcaption>Nuestro espacio en Liberia</figcaption>
         </figure>
         <div class="texto">
-          <span class="eyebrow">Resumen</span>
-          <h2>4.8 de 5 en 128 opiniones</h2>
-          <p>Recogemos las valoraciones de quienes nos visitan en el local y de quienes nos escriben por redes sociales. Estos son los promedios del último año:</p>
-          <div class="tabla-responsive">
+          <span class="subtitulo">Resumen</span>
+          <h2>Valoraciones de clientes</h2>
+          <p>Estas calificaciones muestran una opinión general sobre diferentes aspectos de la cafetería.</p>
+          <div class="tabla-adaptable">
             <table>
               <caption>Promedio por categoría</caption>
               <thead>
                 <tr>
-                  <th scope="col">Categoría</th>
-                  <th scope="col">Calificación</th>
-                  <th scope="col">Promedio</th>
+                  <th>Categoría</th>
+                  <th>Calificación</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>Calidad del café</td>
-                  <td><span class="estrellas">★★★★★</span></td>
-                  <td class="precio">4.9</td>
+                  <td class="precio">4.9 / 5</td>
                 </tr>
                 <tr>
                   <td>Atención al cliente</td>
-                  <td><span class="estrellas">★★★★★</span></td>
-                  <td class="precio">4.8</td>
+                  <td class="precio">4.8 / 5</td>
                 </tr>
                 <tr>
                   <td>Ambiente del local</td>
-                  <td><span class="estrellas">★★★★★</span></td>
-                  <td class="precio">4.8</td>
+                  <td class="precio">4.8 / 5</td>
                 </tr>
                 <tr>
                   <td>Repostería</td>
-                  <td><span class="estrellas">★★★★☆</span></td>
-                  <td class="precio">4.6</td>
-                </tr>
-                <tr>
-                  <td>Relación precio / calidad</td>
-                  <td><span class="estrellas">★★★★☆</span></td>
-                  <td class="precio">4.5</td>
+                  <td class="precio">4.6 / 5</td>
                 </tr>
               </tbody>
             </table>
@@ -112,166 +89,57 @@
     <section id="opiniones">
       <div class="contenedor">
         <div class="encabezado-seccion">
-          <span class="eyebrow">Reseñas recientes</span>
-          <h2>Lo que nos cuentan</h2>
+          <span class="subtitulo">Reseñas</span>
+          <h2>Lo que dicen nuestros clientes</h2>
         </div>
 
-        <div class="opiniones-grid">
+        <div class="contenedor-opiniones">
           <article class="opinion">
             <h3>María Fernanda Chávez</h3>
-            <p class="opinion-meta">Liberia · 12 de julio, 2026</p>
-            <p class="estrellas">★★★★★ <span class="opinion-nota">5 de 5</span></p>
+            <p class="datos-opinion">Liberia · Julio 2026</p>
+            <p class="estrellas">★★★★★ <span class="nota-opinion">5 de 5</span></p>
             <blockquote>
-              <p>Vengo cada semana a trabajar desde aquí. El wifi es estable, la música no molesta y el cold brew es el mejor de Guanacaste. El personal ya se sabe mi pedido de memoria.</p>
+              <p>El café estaba muy bueno y el ambiente fue tranquilo. Volvería sin duda.</p>
             </blockquote>
           </article>
 
           <article class="opinion">
             <h3>José Pablo Ureña</h3>
-            <p class="opinion-meta">San José · 28 de junio, 2026</p>
-            <p class="estrellas">★★★★☆ <span class="opinion-nota">4 de 5</span></p>
+            <p class="datos-opinion">San José · Junio 2026</p>
+            <p class="estrellas">★★★★☆ <span class="nota-opinion">4 de 5</span></p>
             <blockquote>
-              <p>Pasé de camino a la playa y terminé quedándome una hora. El latte estaba muy bien preparado. Le bajo una estrella porque había pocas mesas disponibles al mediodía.</p>
+              <p>Buena atención y un latte muy bien preparado.</p>
             </blockquote>
           </article>
 
           <article class="opinion">
             <h3>Karla Jiménez</h3>
-            <p class="opinion-meta">Liberia · 15 de junio, 2026</p>
-            <p class="estrellas">★★★★★ <span class="opinion-nota">5 de 5</span></p>
+            <p class="datos-opinion">Liberia · Junio 2026</p>
+            <p class="estrellas">★★★★★ <span class="nota-opinion">5 de 5</span></p>
             <blockquote>
-              <p>Fui a la cata del miércoles sin saber nada de café y salí entendiendo la diferencia entre un tueste medio y uno oscuro. Explican con mucha paciencia y sin cobrar de más.</p>
+              <p>Me gustó mucho la repostería y la atención del personal.</p>
             </blockquote>
           </article>
 
           <article class="opinion">
             <h3>Andrés Mora</h3>
-            <p class="opinion-meta">Cañas · 3 de junio, 2026</p>
-            <p class="estrellas">★★★★★ <span class="opinion-nota">5 de 5</span></p>
+            <p class="datos-opinion">Cañas · Junio 2026</p>
+            <p class="estrellas">★★★★★ <span class="nota-opinion">5 de 5</span></p>
             <blockquote>
-              <p>Reservamos para un grupo de 15 personas de la oficina. Coordinaron todo por correo, tuvieron el espacio listo y el servicio fue rápido a pesar del grupo grande.</p>
-            </blockquote>
-          </article>
-
-          <article class="opinion">
-            <h3>Lucía Vargas</h3>
-            <p class="opinion-meta">Santa Cruz · 21 de mayo, 2026</p>
-            <p class="estrellas">★★★★☆ <span class="opinion-nota">4 de 5</span></p>
-            <blockquote>
-              <p>El tres leches y el cheesecake de maracuyá valen la visita. Me hubiera gustado encontrar más opciones sin azúcar, pero el sabor de todo lo que probé fue excelente.</p>
-            </blockquote>
-          </article>
-
-          <article class="opinion">
-            <h3>Daniel Rodríguez</h3>
-            <p class="opinion-meta">Liberia · 8 de mayo, 2026</p>
-            <p class="estrellas">★★★★★ <span class="opinion-nota">5 de 5</span></p>
-            <blockquote>
-              <p>Compro el café en grano para la casa desde hace dos años. Siempre me lo muelen al calibre de mi prensa francesa y llega fresco. Nunca he tenido una bolsa mala.</p>
+              <p>Fuimos en grupo y el servicio fue rápido y amable.</p>
             </blockquote>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="dejar-opinion">
+    <section id="invitacion">
       <div class="contenedor">
-        <div class="encabezado-seccion">
-          <span class="eyebrow">Tu turno</span>
-          <h2>Dejá tu opinión</h2>
-          <p>Contanos cómo te fue en tu visita. Publicamos las reseñas después de revisarlas.</p>
-        </div>
-
-        <form class="form-contacto" action="#" method="post">
-
-          <fieldset>
-            <legend>Sobre vos</legend>
-
-            <div class="campo-fila">
-              <div class="campo">
-                <label for="nombre-op">Nombre <span class="obligatorio">*</span></label>
-                <input type="text" id="nombre-op" name="nombre" placeholder="Tu nombre" maxlength="40" required>
-              </div>
-              <div class="campo">
-                <label for="ciudad-op">Ciudad</label>
-                <input type="text" id="ciudad-op" name="ciudad" placeholder="Liberia" maxlength="40">
-              </div>
-            </div>
-
-            <div class="campo-fila">
-              <div class="campo">
-                <label for="correo-op">Correo electrónico <span class="obligatorio">*</span></label>
-                <input type="email" id="correo-op" name="correo" placeholder="tucorreo@ejemplo.com" required>
-              </div>
-              <div class="campo">
-                <label for="fecha-op">Fecha de tu visita</label>
-                <input type="date" id="fecha-op" name="fecha">
-              </div>
-            </div>
-          </fieldset>
-
-          <fieldset>
-            <legend>Tu calificación</legend>
-
-            <div class="campo">
-              <p class="etiqueta-grupo">¿Cuántas estrellas nos das? <span class="obligatorio">*</span></p>
-              <div class="grupo-radio">
-                <span><input type="radio" id="e5" name="calificacion" value="5" required><label for="e5">5 — Excelente</label></span>
-                <span><input type="radio" id="e4" name="calificacion" value="4"><label for="e4">4 — Muy bueno</label></span>
-                <span><input type="radio" id="e3" name="calificacion" value="3"><label for="e3">3 — Regular</label></span>
-                <span><input type="radio" id="e2" name="calificacion" value="2"><label for="e2">2 — Malo</label></span>
-                <span><input type="radio" id="e1" name="calificacion" value="1"><label for="e1">1 — Muy malo</label></span>
-              </div>
-            </div>
-
-            <div class="campo">
-              <label for="tema-op">¿Sobre qué nos querés hablar? <span class="obligatorio">*</span></label>
-              <select id="tema-op" name="tema" required>
-                <option value="">Selecciona una opción</option>
-                <option value="cafe">La calidad del café</option>
-                <option value="atencion">La atención del personal</option>
-                <option value="ambiente">El ambiente del local</option>
-                <option value="reposteria">La repostería</option>
-                <option value="general">Mi experiencia en general</option>
-              </select>
-            </div>
-
-            <div class="campo">
-              <label for="comentario-op">Tu comentario <span class="obligatorio">*</span></label>
-              <textarea id="comentario-op" name="comentario" rows="6" placeholder="Contanos qué pediste y cómo te atendieron..." required></textarea>
-            </div>
-
-            <div class="campo campo-inline">
-              <input type="checkbox" id="publicar" name="publicar" value="si">
-              <label for="publicar">Autorizo que mi opinión se publique en esta página.</label>
-            </div>
-          </fieldset>
-
-          <p class="nota-form">Los campos marcados con <span class="obligatorio">*</span> son obligatorios.</p>
-
-          <div class="form-botones">
-            <button type="submit">Enviar opinión</button>
-            <button type="reset">Limpiar formulario</button>
-          </div>
-        </form>
-      </div>
-    </section>
-
-    <section id="nota-opiniones">
-      <div class="contenedor">
-        <aside class="destacado">
-          <h3>Cómo tratamos las opiniones</h3>
-          <ul class="lista-check lista-clara">
-            <li>Publicamos todas las reseñas, tanto las buenas como las críticas.</li>
-            <li>Solo corregimos faltas de ortografía; nunca cambiamos el contenido.</li>
-            <li>Respondemos por correo cada comentario que pide una solución.</li>
-            <li>No ofrecemos productos gratis a cambio de una buena calificación.</li>
-          </ul>
-          <p>También podés dejarnos tu valoración en
-            <a href="https://www.google.com/maps" target="_blank" rel="noopener noreferrer">Google Maps</a> o en
-            <a href="https://www.tripadvisor.com" target="_blank" rel="noopener noreferrer">TripAdvisor</a>.</p>
+        <aside class="destacado centrado">
+          <h3>¿Querés visitarnos?</h3>
+          <p>Podés consultar nuestro horario y datos de contacto en la página de contacto.</p>
+          <p><a href="contacto.html">Ir a contacto</a></p>
         </aside>
-        <p class="volver-arriba"><a href="#arriba">↑ Volver al inicio de la página</a></p>
       </div>
     </section>
 
@@ -281,16 +149,16 @@
     <div class="contenedor">
       <div>
         <h3>Café Aroma</h3>
-        <p>Sabor de origen costarricense, tueste artesanal, servido con cuidado.</p>
+        <p>Café costarricense y repostería artesanal.</p>
         <div class="redes">
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.instagram.com">Instagram</a>
+          <a href="https://www.facebook.com">Facebook</a>
         </div>
       </div>
       <div>
         <h3>Proyecto académico</h3>
         <p>Estudiantes: Alex Villegas, Esteban Pastrana y Pablo Sequeira</p>
-        <p>Curso: Programación 4</p>
+        <p>Curso: BISOF 07 Programación II</p>
         <p>Universidad Latina de Costa Rica</p>
         <p>Año: 2026</p>
       </div>
@@ -298,10 +166,9 @@
         <h3>Contacto</h3>
         <p>Liberia, Guanacaste, Costa Rica</p>
         <p>info@cafearoma.co.cr</p>
-        <p><a href="contacto.html">Escríbenos aquí</a></p>
       </div>
     </div>
-    <p class="footer-legal">&copy; 2026 Café Aroma. Todos los derechos reservados.</p>
+    <p class="pie-legal">&copy; 2026 Café Aroma. Todos los derechos reservados.</p>
   </footer>
 
 </body>
